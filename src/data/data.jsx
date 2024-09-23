@@ -4,7 +4,7 @@ import { BsPerson } from "react-icons/bs"
 export const navbr = [
     {
         name: "Home",
-        links: "home"
+        links: "/"
     },
     {
         name: "About me",
@@ -57,5 +57,52 @@ export const portfolioData = [
         header: "Personal portfolio website",
         tec: "react",
         btn: "see project"
+    },
+]
+
+
+
+import user from "../assets/image/parashar.png"
+import { SiFreelancer } from "react-icons/si"
+import { MdEmail } from "react-icons/md"
+export const testimonial = [
+    {
+        name: "Rechat Bravo",
+        Occ: "Designer",
+        details: "your works is really awesome and it is most helpful for us.",
+        Image:user
+    },
+    {
+        name: "Rechat Bravo",
+        Occ: "Designer",
+        details: "your works is really awesome and it is most helpful for us.",
+        Image:user
+    },
+    {
+        name: "Rechat Bravo",
+        Occ: "Designer",
+        details: "your works is really awesome and it is most helpful for us.",
+        Image:user
+    }
+]
+
+
+
+
+export const contact = [
+    {
+        name: "Parashar Das",
+        P: "Web developer(front-end)",
+        icon: <BsPerson/>
+    },
+    {
+        name: "Freelancer",
+        P: "Available all the time",
+        icon: <SiFreelancer/>
+    },
+    {
+        name: "Email",
+        P: "porashorbabu@gmail.com",
+        icon: <MdEmail/>
     },
 ]

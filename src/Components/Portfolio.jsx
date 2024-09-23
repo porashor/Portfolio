@@ -4,7 +4,7 @@ import { portfolioData } from '../data/data'
 
 const Portfolio = () => {
   return (
-    <div className='bg-custom-dark relative my-5'>
+    <div className='bg-custom-dark relative py-5'>
         <div className='w-[90%] mx-auto'>
             {/* main header section */}
             <Header bold={"my Portfolio"} head={"My cases"}/>

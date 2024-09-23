@@ -6,7 +6,7 @@ import { BiX } from 'react-icons/bi'
 const Navber = () => {
   const [manu, setMenu] = useState(true)
   return (
-    <div className='py-5'>
+    <div className='py-5 bg-custom-dark text-white'>
       <div className='w-[90%] mx-auto flex items-center justify-between gap-5'>
         {/* logo section */}
         <div className='text-2xl md:text-3xl lg:text-4xl uppercase font-bold cursor-pointer'>Parashar.</div>

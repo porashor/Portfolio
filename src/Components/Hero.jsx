@@ -3,8 +3,8 @@ import image from "../assets/image/parashar.png"
 import { Parallax } from 'react-parallax'
 const Hero = () => {
   return (
-    <div className='bg-custom-dark relative my-5'>
-      <div className='w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 justify-between items-center h-[700px]'>
+    <div className='bg-custom-dark relative py-5'>
+      <div className='w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 justify-between items-center min-h-[700px]'>
         {/* details section */}
         <div className='space-y-6 order-2 lg:order-1'>
             <p className='text-xl font-bold uppercase '>hello, this is...</p>
