@@ -4,7 +4,7 @@ import { contact } from '../data/data'
 
 const Contact = () => {
   return (
-    <div className='bg-custom-dark py-5'>
+    <div className='bg-custom-dark py-5 text-white'>
       <div className='w-[90%] mx-auto'>
         {/* header section */}
         <Header bold={"contact"} head="Are you looking for your business?"/>

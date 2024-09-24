@@ -5,7 +5,24 @@ import Home from "./pages/Home";
 import Foother from "./Components/Foother";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
 
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 export default function App() {
     return (

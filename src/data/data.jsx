@@ -63,7 +63,7 @@ export const portfolioData = [
 
 
 import user from "../assets/image/parashar.png"
-import { SiFreelancer } from "react-icons/si"
+import { SiFreelancer, SiLeptos } from "react-icons/si"
 import { MdEmail } from "react-icons/md"
 export const testimonial = [
     {
@@ -104,5 +104,27 @@ export const contact = [
         name: "Email",
         P: "porashorbabu@gmail.com",
         icon: <MdEmail/>
+    },
+]
+
+
+export const experience = [
+    {
+        task: "www.fiverr.com",
+        time: "2020-present",
+        details: "I am working here for five years and I am a experienced seller in fiverr I am working here for five years and I am a experienced seller in fiverr ",
+        icon: <SiLeptos/>
+    },
+    {
+        task: "www.upwork.com",
+        time: "2022-present",
+        details: "I am working here for five years and I am a experienced seller in fiverr I am working here for five years and I am a experienced seller in fiverr ",
+        icon: <SiLeptos/>
+    },
+    {
+        task: "www.frelance.com",
+        time: "2021-present",
+        details: "I am working here for five years and I am a experienced seller in fiverr I am working here for five years and I am a experienced seller in fiverr ",
+        icon: <SiLeptos/>
     },
 ]

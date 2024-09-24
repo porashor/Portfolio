@@ -1,30 +1,43 @@
 import React from 'react'
 import { Bar } from 'react-chartjs-2'
 import { BiBook } from 'react-icons/bi'
+import { Chart, LinearScale } from 'chart.js';
+import { Background } from 'react-parallax';
+Chart.register(LinearScale);
 
 const Skill = () => {
     const data = {
-        labels: ["skill"],
+        labels: ["Html and css", "psd to html", "javascript", "react", "tailwind"],
         datasets: [
             {
-                label: "java",
-                data: [23]
+                label: "Skill",
+                data: [80, 96, 99, 87, 90],
+                backgroundColor : "yellow",
+                fill: false,
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1
             }
         ]
-    }
+    };
     const options = {
+
         scales: {
-          y: {
-            beginAtZero: true,
-            max: 100,
-          },
-        },
-      };
+            x: {
+                type: 'category',
+                position: 'bottom'
+            },
+            y: {
+                type: 'linear',
+                position: 'left'
+            }
+        }
+    }
+   
   return (
     <div className='bg-custom-dark text-white py-5'>
         <div className='w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center justify-center'>
             {/* education section */}
-            <div className='w-full space-y-5 p-10 min-h-[400px] bg-slate-800 rounded-3xl'>
+            <div className='w-full space-y-5 p-10 min-h-[600px] bg-slate-800 rounded-3xl'>
                 <h1 className='text-4xl font-semibold text-yellow-500'>Education</h1>
                 <div className=''>
                     <BiBook className='text-4xl text-yellow-500 '/>
@@ -43,8 +56,10 @@ const Skill = () => {
                 </div>
             </div>
             {/* skill section */}
-            <div className='w-full space-y-5 p-10 min-h-[400px] bg-slate-800 rounded-3xl'>
-                <Bar data={data} options={options}/>
+            <div className='w-full space-y-5 p-10 min-h-[600px] bg-slate-800 rounded-3xl'>
+                {/* header */}
+                <h1 className='text-4xl font-semibold text-yellow-500'>Skills</h1>
+                <Bar data={data} options={options} />
             </div>
         </div>
     </div>
