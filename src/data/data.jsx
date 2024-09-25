@@ -14,6 +14,10 @@ export const navbr = [
         name: "Blog",
         links: "blog"
     },
+    {
+        name: "Membership",
+        links: "mem"
+    }
 ]
 
 
