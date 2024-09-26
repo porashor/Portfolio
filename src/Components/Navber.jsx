@@ -16,7 +16,7 @@ const Navber = () => {
               {navbr.map((item, index)=>(
                 <div key={index} className='hover:bg-yellow-500 py-1 px-3 rounded-full duration-200 transition-all'><a href={item.links}>{item.name}</a></div>
               ))}
-              <a href="" className='bg-yellow-500 py-1 px-3 rounded-full'>Say hello!</a>
+              <a href="/desh" className='bg-yellow-500 py-1 px-3 rounded-full'>Say hello!</a>
             </nav>
             <div className='block md:hidden text-2xl'>
               {manu? <MdMenu onClick={()=>setMenu(false)}/> : <BiX onClick={()=>setMenu(true)}/>}

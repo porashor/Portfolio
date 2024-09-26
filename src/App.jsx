@@ -17,6 +17,7 @@ import {
 } from 'chart.js';
 import Membership from "./pages/Membership";
 import 'react-toastify/dist/ReactToastify.css';
+import Desboard from "./Components/Desboard";
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="about" element={<About/>}/>
           <Route path="blog" element={<Blog/>}/>
           <Route path="mem" element={<Membership/>}/>
+          <Route path="desh" element={<Desboard/>}/>
         </Routes>
         <Foother/>
       </Router>

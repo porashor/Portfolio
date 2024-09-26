@@ -5,7 +5,7 @@ import SignIn from '../Components/SignIn'
 const Membership = () => {
   return (
     <div>
-        <SignIn/>
+      <LogIn/>
     </div>
   )
 }
