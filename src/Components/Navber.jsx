@@ -3,8 +3,9 @@ import { navbr } from '../data/data'
 import { MdMenu } from 'react-icons/md'
 import { BiX } from 'react-icons/bi'
 
-const Navber = () => {
+const Navber = ({user}) => {
   const [manu, setMenu] = useState(true)
+  console.log(user)
   return (
     <div className='py-5 bg-custom-dark text-white'>
       <div className='w-[90%] mx-auto flex items-center justify-between gap-5'>
@@ -12,6 +13,7 @@ const Navber = () => {
         <div className='text-2xl md:text-3xl lg:text-4xl uppercase font-bold cursor-pointer'>Parashar.</div>
         {/* nav section */}
         <div>
+          {user ? <div>{user}</div>: <div></div>}
             <nav className='hidden md:flex items-center justify-center gap-7 text-xl font-bold'>
               {navbr.map((item, index)=>(
                 <div key={index} className='hover:bg-yellow-500 py-1 px-3 rounded-full duration-200 transition-all'><a href={item.links}>{item.name}</a></div>

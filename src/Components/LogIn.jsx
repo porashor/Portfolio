@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import Header from './Header'
 import useFunc from '../customHooks/useFunc'
+import { useNavigate } from 'react-router-dom';
 
 const LogIn = () => {
-  const [email, setEmail] = useState()
-  const [pass, setPass] = useState()
+  const [email, setEmail] = useState("")
+  const [pass, setPass] = useState("")
   const {userLoged,document, LogingIn} = useFunc()
+  //navigation create
+  const history = useNavigate()
+  //calling the function
   function Log(e){
     e.preventDefault()
     LogingIn(email, pass)

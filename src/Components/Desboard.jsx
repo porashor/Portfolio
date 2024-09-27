@@ -1,10 +1,12 @@
 import React from 'react'
 import useFunc from '../customHooks/useFunc'
+import { useLocation } from 'react-router-dom'
 
 const Desboard = () => {
-    const {document} = useFunc()
-    console.log(document)
-  return document ? <div className='w-full h-[700px] bg-custom-dark text-white'>
+    const loca = useLocation()
+    const data = loca.state;
+    console.log(data)
+  return data ? <div className='w-full h-[700px] bg-custom-dark text-white'>
   <div className='w-[90%] mx-auto'>
       {/* image section */}
       <div></div>
@@ -19,4 +21,3 @@ export default Desboard
 
 
 
-{/*  */}

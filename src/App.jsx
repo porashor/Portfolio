@@ -18,6 +18,7 @@ import {
 import Membership from "./pages/Membership";
 import 'react-toastify/dist/ReactToastify.css';
 import Desboard from "./Components/Desboard";
+import useFunc from "./customHooks/useFunc";
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -28,9 +29,10 @@ ChartJS.register(
 );
 
 export default function App() {
+  const {userLoged, document, signingIn, LogingIn} = useFunc()
     return (
       <Router>
-        <Navber/>
+        <Navber user={userLoged}/>
         <ToastContainer/>
         <Routes>
           <Route path="/" element={<Home/>}/>
