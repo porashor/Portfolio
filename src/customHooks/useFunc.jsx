@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import { auth, dataStore } from '../auth/Auther'
-import {doc, getDoc, setDoc} from "firebase/firestore"
+import {doc, setDoc} from "firebase/firestore"
 import { toast } from 'react-toastify'
 
 const useFunc = () => {
     const [userLoged, setUserLoged] = useState()
-    const [document, setDocument] = useState()
     async function signingIn(email, pass, fname, member, duration, currency, image){
         //creacte user with email and password
         try{
@@ -57,15 +56,18 @@ const useFunc = () => {
         await signInWithEmailAndPassword(auth, email, pass)
         //profile update
         await setUserLoged(auth.currentUser?.displayName)
-        const userId = auth.currentUser?.uid
         //get data from firestore 
-        const docRef = doc(dataStore, userLoged, userId )
-        const snep = await getDoc(docRef)
-        if (snep.exists()) {
-          setDocument(snep.data());
-        } else {
-          console.log('No such document!');
-        }
+        // const docRef = doc(dataStore, auth.currentUser?.displayName, auth.currentUser?.uid )
+        // const snep = await getDoc(docRef)
+        // if (snep.exists()) {
+        //   await LoadedData(snep.data());
+        // } else {
+        //   console.log('No such document!');
+        // }
+        //redirecting the dashboard after 5s
+        setInterval(()=>{
+          window.location.href = "/desh"
+        },5000)
         //toast message
         toast.success("log in successful",{
           position: "top-center"
@@ -78,8 +80,15 @@ const useFunc = () => {
         })
       }
     }
+    //login set data function
+    // async function LoadedData(data){
+    //   console.log(data)
+    //   if(data){
+    //     navigate("/desh", data)
+    //   }
+    // }
     
-  return {userLoged, document, signingIn, LogingIn}
+  return {userLoged, signingIn, LogingIn}
 }
 
 export default useFunc

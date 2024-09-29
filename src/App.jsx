@@ -30,6 +30,7 @@ ChartJS.register(
 
 export default function App() {
   const {userLoged, document, signingIn, LogingIn} = useFunc()
+  
     return (
       <Router>
         <Navber user={userLoged}/>
