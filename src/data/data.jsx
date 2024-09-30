@@ -135,7 +135,10 @@ export const experience = [
 
 
 import img1 from "../assets/blog/img1.jpg"
-
+import img2 from "../assets/blog/img2.jfif"
+import img3 from "../assets/blog/img3.jpg"
+import img4 from "../assets/blog/img4.jpg"
+import img5 from "../assets/blog/img5.jpg"
 
 
 export const BlogData = [
@@ -146,9 +149,27 @@ export const BlogData = [
         date: "11:01pm"
     },
     {
-        img: img1,
-        title: "figma to html",
+        img: img2,
+        title: "psd to html",
+        details: "do all learn about the react file and know how to set all of the data",
+        date: "13:01pm"
+    },
+    {
+        img: img3,
+        title: "html to react",
+        details: "learn asdfa ewrqa about the react file and know how to set all of the data",
+        date: "1:01pm"
+    },
+    {
+        img: img4,
+        title: "figma to react",
         details: "learn about the react file and know how to set all of the data",
+        date: "10:01pm"
+    },
+    {
+        img: img5,
+        title: "react and firebase",
+        details: "learn about the asd asdf react file and know how to set all of the data",
         date: "11:01pm"
     },
     {
@@ -164,9 +185,27 @@ export const BlogData = [
         date: "11:01pm"
     },
     {
-        img: img1,
-        title: "figma to html",
+        img: img2,
+        title: "psd to html",
+        details: "do all learn about the react file and know how to set all of the data",
+        date: "13:01pm"
+    },
+    {
+        img: img3,
+        title: "html to react",
+        details: "learn asdfa ewrqa about the react file and know how to set all of the data",
+        date: "1:01pm"
+    },
+    {
+        img: img4,
+        title: "figma to react",
         details: "learn about the react file and know how to set all of the data",
+        date: "10:01pm"
+    },
+    {
+        img: img5,
+        title: "react and firebase",
+        details: "learn about the asd asdf react file and know how to set all of the data",
         date: "11:01pm"
     },
     {
@@ -180,6 +219,186 @@ export const BlogData = [
         title: "figma to html",
         details: "learn about the react file and know how to set all of the data",
         date: "11:01pm"
+    },
+    {
+        img: img2,
+        title: "psd to html",
+        details: "do all learn about the react file and know how to set all of the data",
+        date: "13:01pm"
+    },
+    {
+        img: img3,
+        title: "html to react",
+        details: "learn asdfa ewrqa about the react file and know how to set all of the data",
+        date: "1:01pm"
+    },
+    {
+        img: img4,
+        title: "figma to react",
+        details: "learn about the react file and know how to set all of the data",
+        date: "10:01pm"
+    },
+    {
+        img: img5,
+        title: "react and firebase",
+        details: "learn about the asd asdf react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img2,
+        title: "psd to html",
+        details: "do all learn about the react file and know how to set all of the data",
+        date: "13:01pm"
+    },
+    {
+        img: img3,
+        title: "html to react",
+        details: "learn asdfa ewrqa about the react file and know how to set all of the data",
+        date: "1:01pm"
+    },
+    {
+        img: img4,
+        title: "figma to react",
+        details: "learn about the react file and know how to set all of the data",
+        date: "10:01pm"
+    },
+    {
+        img: img5,
+        title: "react and firebase",
+        details: "learn about the asd asdf react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img2,
+        title: "psd to html",
+        details: "do all learn about the react file and know how to set all of the data",
+        date: "13:01pm"
+    },
+    {
+        img: img3,
+        title: "html to react",
+        details: "learn asdfa ewrqa about the react file and know how to set all of the data",
+        date: "1:01pm"
+    },
+    {
+        img: img4,
+        title: "figma to react",
+        details: "learn about the react file and know how to set all of the data",
+        date: "10:01pm"
+    },
+    {
+        img: img5,
+        title: "react and firebase",
+        details: "learn about the asd asdf react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img2,
+        title: "psd to html",
+        details: "do all learn about the react file and know how to set all of the data",
+        date: "13:01pm"
+    },
+    {
+        img: img3,
+        title: "html to react",
+        details: "learn asdfa ewrqa about the react file and know how to set all of the data",
+        date: "1:01pm"
+    },
+    {
+        img: img4,
+        title: "figma to react",
+        details: "learn about the react file and know how to set all of the data",
+        date: "10:01pm"
+    },
+    {
+        img: img5,
+        title: "react and firebase",
+        details: "learn about the asd asdf react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img2,
+        title: "psd to html",
+        details: "do all learn about the react file and know how to set all of the data",
+        date: "13:01pm"
+    },
+    {
+        img: img3,
+        title: "html to react",
+        details: "learn asdfa ewrqa about the react file and know how to set all of the data",
+        date: "1:01pm"
+    },
+    {
+        img: img4,
+        title: "figma to react",
+        details: "learn about the react file and know how to set all of the data",
+        date: "10:01pm"
+    },
+    {
+        img: img5,
+        title: "react and firebase",
+        details: "learn about the asd asdf react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "3:01pm"
     },
     {
         img: img1,

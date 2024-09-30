@@ -1,5 +1,5 @@
 import React, {  useState } from 'react'
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from 'firebase/auth'
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile } from 'firebase/auth'
 import { auth, dataStore } from '../auth/Auther'
 import {doc, setDoc} from "firebase/firestore"
 import { toast } from 'react-toastify'
@@ -87,8 +87,25 @@ const useFunc = () => {
     //     navigate("/desh", data)
     //   }
     // }
+
+    // signOut function
+    async function signingOut() {
+      try{
+        signOut(auth)
+        //toast message
+        toast.success("signout success",{
+          position: "top-center"
+        })
+      }catch(er){
+        console.log(er)
+        //toast message
+        toast.success("signOut faild!",{
+          position : "top-center"
+        })
+      }
+    }
     
-  return {userLoged, signingIn, LogingIn}
+  return {userLoged, signingIn, LogingIn, signingOut}
 }
 
 export default useFunc
