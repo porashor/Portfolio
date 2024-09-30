@@ -132,3 +132,617 @@ export const experience = [
         icon: <SiLeptos/>
     },
 ]
+
+
+import img1 from "../assets/blog/img1.jpg"
+
+
+
+export const BlogData = [
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+    {
+        img: img1,
+        title: "figma to html",
+        details: "learn about the react file and know how to set all of the data",
+        date: "11:01pm"
+    },
+]
