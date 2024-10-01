@@ -26,19 +26,22 @@ export const services = [
         icon: <BiLogOut/>,
         header: "psd to html",
         details: "i can do change the any kind of design to html template and it can gather and gain profite to your company and it is possible for you",
-        btn: "get service"
+        btn: "get service",
+        aos: "fade-left"
     },
     {
         icon: <BiLogIn/>,
         header: "psd to react",
         details: "i can do change the any kind of design to html template and it can gather and gain profite to your company and it is possible for you",
-        btn: "get service"
+        btn: "get service",
+        aos: "fade-up"
     },
     {
         icon: <BsPerson/>,
         header: "psd to react",
         details: "i can do change the any kind of design to html template and it can gather and gain profite to your company and it is possible for you",
-        btn: "get service"
+        btn: "get service",
+        aos: "fade-right"
     }
 ]
 
@@ -48,19 +51,22 @@ export const portfolioData = [
         Image: image1,
         header: "Personal portfolio website",
         tec: "react",
-        btn: "see project"
+        btn: "see project",
+        aos: "fade-left"
     },
     {
         Image: image1,
         header: "Personal portfolio website",
         tec: "react",
-        btn: "see project"
+        btn: "see project",
+        aos: "fade-up"
     },
     {
         Image: image1,
         header: "Personal portfolio website",
         tec: "react",
-        btn: "see project"
+        btn: "see project",
+        aos: "fade-right"
     },
 ]
 
@@ -74,19 +80,22 @@ export const testimonial = [
         name: "Rechat Bravo",
         Occ: "Designer",
         details: "your works is really awesome and it is most helpful for us.",
-        Image:user
+        Image:user,
+        aos: "fade-left"
     },
     {
         name: "Rechat Bravo",
         Occ: "Designer",
         details: "your works is really awesome and it is most helpful for us.",
-        Image:user
+        Image:user,
+        aos: "fade-up"
     },
     {
         name: "Rechat Bravo",
         Occ: "Designer",
         details: "your works is really awesome and it is most helpful for us.",
-        Image:user
+        Image:user,
+        aos: "fade-right"
     }
 ]
 
@@ -97,17 +106,20 @@ export const contact = [
     {
         name: "Parashar Das",
         P: "Web developer(front-end)",
-        icon: <BsPerson/>
+        icon: <BsPerson/>,
+        aos: "fade-left"
     },
     {
         name: "Freelancer",
         P: "Available all the time",
-        icon: <SiFreelancer/>
+        icon: <SiFreelancer/>,
+        aos: "fade-up"
     },
     {
         name: "Email",
         P: "porashorbabu@gmail.com",
-        icon: <MdEmail/>
+        icon: <MdEmail/>,
+        aos: "fade-right"
     },
 ]
 

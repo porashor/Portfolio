@@ -11,7 +11,7 @@ const Contact = () => {
         {/* main section for contact */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-between py-5'>
           {contact.map((item,index)=>(
-            <div key={index} className='w-full min-h-[100px] rounded-lg bg-slate-700'>
+            <div data-aos={item.aos} key={index} className='w-full min-h-[100px] rounded-lg bg-slate-700'>
               {/* icon file here  */}
               <div className='text-5xl font-bold flex items-center justify-center pt-5 text-yellow-300'>
                 {item.icon}

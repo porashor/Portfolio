@@ -11,7 +11,7 @@ const Testimonial = () => {
         {/* main section */}
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 items-center justify-between gap-5'>
           {testimonial.map((item, index)=>(
-            <div key={index} className='w-full bg-slate-700 min-h-[200px] rounded-xl py-4 px-3 space-y-3'>
+            <div data-aos={item.aos} key={index} className='w-full bg-slate-700 min-h-[200px] rounded-xl py-4 px-3 space-y-3'>
               {/* details section */}
               <p className='text-xl'>{item.details}</p>
               {/* image section */}

@@ -4,6 +4,7 @@ import AboutDetails from '../Components/AboutDetails'
 import Skill from '../Components/Skill'
 import Experience from '../Components/Experience'
 import Contact from "../Components/Contact"
+import BasicParallax from '../Components/paara'
 
 
 
@@ -15,6 +16,7 @@ const About = () => {
       <Skill/>
       <Experience/>
       <Contact/>
+      <BasicParallax/>
     </div>
   )
 }

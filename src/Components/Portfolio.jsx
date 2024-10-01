@@ -11,7 +11,7 @@ const Portfolio = () => {
             {/* main portfolio section */}
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 items-center justify-between gap-5">
                 {portfolioData.map((item, index)=>(
-                    <div key={index} className='w-full min-h-[200px] bg-slate-800 rounded-2xl p-5 '>
+                    <div key={index} className='w-full min-h-[200px] bg-slate-800 rounded-2xl p-5 ' data-aos={item.aos}>
                         {/* image section */}
                         <div>
                             <img src={item.Image} alt="" className='rounded-xl' />

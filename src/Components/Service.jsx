@@ -11,7 +11,7 @@ const Service = () => {
         {/* main section */}
         <div className='grid items-center justify-between gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-10'>
             {services.map((item, index)=>(
-                <div key={index} className='min-h-[200px] w-full bg-slate-800 rounded-xl'>
+                <div key={index} className='min-h-[200px] w-full bg-slate-800 rounded-xl' data-aos={item.aos}>
                     {/* icon section */}
                     <div className='text-7xl bold p-5'>
                         {item.icon}
