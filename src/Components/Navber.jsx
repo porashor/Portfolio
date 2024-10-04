@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { navbr } from '../data/data'
 import { MdMenu } from 'react-icons/md'
 import { BiX } from 'react-icons/bi'
+import {Link} from "react-router-dom"
+
 
 const Navber = ({user}) => {
   const [manu, setMenu] = useState(true)
@@ -10,7 +12,9 @@ const Navber = ({user}) => {
     <div className='py-5 bg-custom-dark text-white'>
       <div className='w-[90%] mx-auto flex items-center justify-between gap-5'>
         {/* logo section */}
-        <div className='text-2xl md:text-3xl lg:text-4xl uppercase font-bold cursor-pointer'>Parashar.</div>
+        <Link to="/">
+          <div className='text-2xl md:text-3xl lg:text-4xl uppercase font-bold cursor-pointer'>Parashar.</div>
+        </Link>
         {/* nav section */}
         <div>
           {user ? <div>{user}</div>: <div></div>}
