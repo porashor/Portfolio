@@ -23,7 +23,7 @@ const Blog = () => {
   return (
     <div className='bg-custom-dark py-10 text-white'>
       {
-        usermake ? <div className='w-[90%] mx-auto'>
+        true ? <div className='w-[90%] mx-auto'>
           <button className='bg-green-400' onClick={signingOut}>signOut</button>
         {/* header section */}
         <Header bold={"All updates here"} head={"if you are new in this field you can learn more and more!"}/>
