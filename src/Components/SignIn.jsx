@@ -27,19 +27,19 @@ const SignIn = () => {
         {/* heading section */}
         <Header bold={"Sing In"} head={"if you need any kind of memnbership you need to register here."}/>
         {/* main form here */}
-        <form onSubmit={formSub} className='border-2 border-slate-100 shadow-md shadow-red-50 py-10 px-5 w-[80%] md:w-[480px] mx-auto rounded-xl flex flex-col gap-5'>
+        <form onSubmit={formSub} className='border-1 border-slate-100 shadow-md shadow-red-50 py-10 px-5 w-full md:w-[480px]  mx-auto rounded-xl flex flex-col gap-5'>
             {/* firstname */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="fname" className='font-semibold'>FirstName:</label>
                 <input type="text" name="" placeholder='Sumit' id="fname" className='w-full py-1 px-2 rounded-md text-black outline-none' value={fname} onChange={(e)=>setFname(e.target.value)} />
             </div>
             {/* lastname */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="lname" className='font-semibold'>LastName:</label>
                 <input type="text" name="" placeholder='saha' id="lname" className='w-full py-1 px-2 rounded-md text-black outline-none' value={lname} onChange={(e)=>setLname(e.target.value)}/>
             </div>
             {/* membership status radio use */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="mem" className='font-thin'>Membership:</label>
                 <select name="" id="mem" className='w-full py-1 px-2 rounded-md text-black outline-none' onChange={(e)=>setMem(e.target.value)}>
                     <option value="normal">Normal</option>
@@ -48,12 +48,12 @@ const SignIn = () => {
                 </select>
             </div>
             {/* duration */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="dura" className='font-semibold'>Duration:</label>
-                <input type="datetime-local" name=""  onChange={(e)=>setDur(e.target.value)} id="dura" className='w-full py-1 px-2 rounded-md text-black outline-none' />
+                <input type="datetime-local" name=""  onChange={(e)=>setDur(e.target.value)} id="dura" className='w-[200px] py-1 px-2 rounded-md text-black outline-none' />
             </div>
             {/* currency */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="curr" className='font-semibold'>Currency:</label>
                 <select name="" id="mem" className='w-full py-1 px-2 rounded-md text-black outline-none' onChange={(e)=>setCurr(e.target.value)}>
                     <option value="bdt">BDT</option>
@@ -62,17 +62,17 @@ const SignIn = () => {
                 </select>
             </div>
             {/* email */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="Email" className='font-semibold'>Email:</label>
                 <input type="email"  value={email} onChange={(e)=>setEmail(e.target.value)} placeholder='example@email.com' name="" id="Email" className='w-full py-1 px-2 rounded-md text-black outline-none'/>
             </div>
             {/* Password */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="pass" className='font-semibold'>Password:</label>
                 <input type="pass" name="" id="Email" className='w-full py-1 px-2 rounded-md text-black outline-none' value={pass} onChange={(e)=>setPass(e.target.value)}/>
             </div>
             {/* image */}
-            <div className='text-xl grid grid-cols-[1fr_3fr] items-center'>
+            <div className='text-xl grid md:grid-cols-[1fr_3fr] md:gap-2 items-center'>
                 <label htmlFor="Email" className='font-semibold'>Image:</label>
                 <input type="file" name="" id="email" className='w-full py-1 px-2 rounded-md text-black outline-none' onChange={(e)=>setFile(e.target.files[0])} />
             </div>

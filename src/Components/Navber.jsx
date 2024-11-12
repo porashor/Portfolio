@@ -28,7 +28,7 @@ const Navber = ({user}) => {
               {manu? <MdMenu onClick={()=>setMenu(false)}/> : <BiX onClick={()=>setMenu(true)}/>}
             </div>
             {/* mobile navber */}
-            {manu ? "" : <div className='absolute md:hidden w-[200px] h-[300px] bg-black/40 right-3 top-[100px] rounded-2xl py-7 px-2 '>
+            {manu ? "" : <div className='absolute z-[100] md:hidden w-[200px] h-[300px] bg-black/90 right-[3rem] top-[100px] rounded-2xl py-7 px-2 '>
             {/* navber */}
               <nav className='text-xl font-semibold'>
               {navbr.map((item, index)=>(
